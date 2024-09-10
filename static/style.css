@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#suggestions {
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+#suggestions li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+#books {
+    display: flex;
+    flex-wrap: wrap;
+}
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
+}
+.book img {
+    max-width: 100%;
+}
