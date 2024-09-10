@@ -40,7 +40,7 @@ pip install Flask elasticsearch
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/bookquest.git
+git clone https://github.com/waltertaya/bookquest.git
 cd bookquest
 ```
 
